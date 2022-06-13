@@ -170,6 +170,6 @@ CORS_ORIGIN_WHITELIST = tuple(env.list("ALLOWED_ORIGINS"))
 CORS_ALLOW_ALL_ORIGINS = env.bool("ALLOW_ALL_ORIGINS")
 
 
-CRSR_TRUSTED_ORIGINS = [
+CRSF_TRUSTED_ORIGINS = [
     'https://cookie-stands-api-rachel.herokuapp.com'
 ]
